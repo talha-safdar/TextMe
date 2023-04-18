@@ -1,0 +1,216 @@
+/*
+ * To override bootstrap's rules
+ * rule retrieve from inspect element
+ * and adjust text container margin
+ */
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1000px !important;
+    }
+
+}
+.cCont {
+    margin-bottom: 10px;
+}
+
+/*
+ * To override bootstrap's rules
+ * rule retrieve from inspect element
+ */
+@media (max-width: 1100px) {
+    .containerNav {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .logoBarOuter {
+        align-content: center !important;
+        float: right !important;
+    }
+}
+
+/*
+ * To adjust pagination display
+ * and text position
+ */
+@media (max-width: 768px) {
+    .pagination {
+        display: block !important;
+        margin-right: 30% !important;
+        margin-left: 30% !important;
+    }
+    .page-link {
+        border-radius: 0 !important;
+    }
+
+    .navPagination {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .c {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 5px;
+
+    }
+    .cCont {
+        margin-bottom: 10px;
+    }
+
+    .welcomeContainer {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        text-align: center !important;
+    }
+}
+
+/*
+ * To override bootstrap's rule
+ * adjust the position of row and gutter
+ */
+@media (max-width: 524px) {
+    .row {
+        margin-right: calc(0.5 * var(--bs-gutter-x)) !important;
+        margin-left: calc(0.5 * var(--bs-gutter-x)) !important;
+    }
+}
+
+@media (min-width: 525px) {
+        .searchContainer {
+        max-width: 700px;
+        overflow-y: auto;
+        max-height: 500px;
+    }
+}
+
+
+
+
+/*
+ * To adjust form and
+ * navigation width
+ */
+@media (max-width: 524px) {
+    .formNav {
+        width: 100% !important;
+    }
+
+    .containerNav {
+        width: 100% !important;
+    }
+
+    .logoBarOuter {
+        display: block !important;
+        width: 100% !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
+
+    .form-control {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .searchContainer {
+        max-width: 700px;
+        overflow-y: auto;
+        max-height: 500px;
+    }
+}
+
+/*
+ * To upload photo button
+ * and welcome text
+ */
+@media (min-width: 431px) {
+    .uploading {
+        float: right;
+        margin-bottom: 10px;
+
+    }
+}
+
+
+
+
+
+/*
+ * To customise the navigation container,
+ * upload image button, welcome text and headings.
+ */
+@media (max-width: 430px) {
+
+    .containerNav {
+        display: block !important;
+        margin: 0 !important;
+        position: relative !important;
+        text-align: center !important;
+        align-content: center !important;
+        align-items: center !important;
+    }
+
+    .home {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+
+
+    .heading {
+        font-size: 30px !important;
+    }
+
+    .welcome {
+        font-size: 30px;
+    }
+
+    .spacerWelcome {
+        margin-top: 30px;
+    }
+
+    .searchContainer {
+        max-width: 350px;
+        overflow-y: auto;
+        max-height: 550px;
+    }
+}
+
+/*
+ * To customise the pagination
+ */
+@media (max-width: 375px) {
+    .pagination {
+        display: block !important;
+        margin-right: 30% !important;
+        margin-left: 30% !important;
+        text-align: center;
+    }
+}
+
+/*
+ * To customise the pagination and body
+ */
+@media (max-width: 320px) {
+    .pagination {
+        display: block !important;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    body {
+        height: 100%;
+        margin: 0;
+    }
+}
